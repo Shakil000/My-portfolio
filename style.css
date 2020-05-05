@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    font-family: 'Dancing Script', cursive;
+
+
+}
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+.name-color{
+    color: rgb(245, 37, 10);
+}
+.half-width{
+    width: 30%;
+    float: left;
+    font-family: sans-serif;
+    margin: 5%;
+    padding: 2%;
+}
+.half-width2{
+    width: 30%;
+    float: right;
+    font-family: sans-serif;
+    padding: 5%;
+}
+.half-width img{
+    width: 150%;
+    border-radius: 50%;
+}
+.background-image{
+    background-image: url("img/a.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    
+}
+.link-button{
+  
+    color: red;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    background-image:linear-gradient(45deg,red, tomato); 
+    font-weight: 700;
+    color: white;
+}
+
