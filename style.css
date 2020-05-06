@@ -10,10 +10,19 @@ body{
 
 }
 h1{
-    font-size: 40px;
+    font-size: 30px;
+}
+.mld{
+    color: purple;
+
 }
 h3{
-    font-size: 30px;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.clr{
+    color: orange;
+
 }
 .name-color{
     color: rgb(245, 37, 10);
@@ -40,8 +49,12 @@ h3{
     background-repeat: no-repeat;
 }
 section{
-    height: 500px;
-    
+    height: 500px; 
+}
+.area{
+    background-image: url(img/b.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .link-button{
   
@@ -52,5 +65,37 @@ section{
     background-image:linear-gradient(45deg,red, tomato); 
     font-weight: 700;
     color: white;
+}
+.box{
+     box-shadow: 10px 10px 40px gray;
+     border-radius: 5px;
+     float: left;
+     height: 65%;
+}
+.last-area{
+    background-image: url(img/c.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#a{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, greenyellow, red); 
+    border-image-slice: 1;
+}
+#b{
+    float:right;
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, greenyellow, cyan); 
+    border-image-slice: 1;
+}
+}
+footer a{
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+}
+footer p{
+    font-family: sans-serif;
+    text-align: center;
 }
 
